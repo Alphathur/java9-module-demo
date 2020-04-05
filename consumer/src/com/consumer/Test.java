@@ -1,0 +1,18 @@
+package com.consumer;
+
+import com.calculate.Calculator;
+import com.provider.Minus;
+import com.provider.Sum;
+
+public class Test {
+    public static void main(String[] args) {
+        Calculator sum  = new Sum ();
+        System.out.println (sum.getName ());
+
+        Calculator minus  = new Minus ();
+        System.out.println (minus.getName ());
+
+//        Calculator div = new Div ();
+//        System.out.println (div.getName ());
+    }
+}
